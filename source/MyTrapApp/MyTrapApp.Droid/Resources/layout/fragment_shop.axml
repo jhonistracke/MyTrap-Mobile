@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_mytrap"
+    tools:context="com.mytrap.HomeActivity$PlaceholderFragment">
+
+  <TextView
+      android:id="@+id/lbl_title_shop_buy"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="2dp"
+      android:layout_centerHorizontal="true"
+      android:textStyle="bold"
+      android:gravity="center"
+      android:text="@string/store"
+      android:textSize="32sp"
+      android:textColor="#adadad" />
+  <ListView
+      android:id="@+id/list_traps_to_buy"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/lbl_title_shop_buy"
+      android:layout_marginTop="2dp"
+      android:divider="#FFECECEC"
+      android:dividerHeight="2sp"
+  android:scrollbars="none" />
+  <TextView
+      android:id="@+id/lbl_title_my_traps"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="2dp"
+      android:textStyle="bold"
+      android:layout_below="@id/list_traps_to_buy"
+      android:layout_centerHorizontal="true"
+      android:gravity="center"
+      android:text="@string/my_traps"
+      android:textSize="32sp"
+      android:textColor="#adadad" />
+  <LinearLayout
+      android:id="@+id/group_my_traps"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="2dp"
+      android:scrollbars="none"
+      android:gravity="center"
+      android:layout_below="@+id/lbl_title_my_traps" />
+</LinearLayout>

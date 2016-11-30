@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- App -->
+  <string name="app_name">MyTrap</string>
+
+  <!-- Login Activity -->
+  <string name="login_with_facebook">Entrar com facebook</string>
+  <string name="title_login">Plante trapas em locais movimentados e aguarde alguém ser explodido. Chame seus amigos e começe a explodir a galera.</string>
+  <string name="error_login_facebook">Não foi possível conectar ao facebook :(</string>
+
+  <!-- Alerta -->
+  <string name="alert_title_success">Uhuu</string>
+  <string name="alert_title_error">Oh no</string>
+
+  <!-- Botoes -->
+  <string name="btn_arm_trap">Plantar</string>
+  <string name="btn_buy_trap">Comprar</string>
+
+  <!-- Notificacao -->
+  <string name="new_trap_notification">Armadilha foi ativada!</string>
+  <string name="you_caught_by_user">Você foi pego por {0}!</string>
+  <string name="you_caught_other_user">Você pegou {0} e ganhou {1} pontos!</string>
+  <string name="arm_more">Coloque mais armadilhas para continuar no jogo.</string>
+  <string name="buy_more">Compre armadilhas para continuar no jogo.</string>
+
+  <!-- Home Fragment -->
+  <string name="arm_a_trap_msg">Coloque uma armadilha e aguarde alguém ser pego para ganhar pontos</string>
+  <string name="buy_a_trap_msg">Você não possui armadilhas em estoque. Compre algumas agora mesmo</string>
+  <string name="points">Pontos:</string>
+  <string name="traps">Armadilhas:</string>
+
+  <!-- Menu lateral-->
+  <string name="home_left_menu">Início</string>
+  <string name="arm_left_menu">Colocar Armadilha</string>
+  <string name="shop_left_menu">Armadilhas</string>
+  <string name="traps_armed_left_menu">Armadilhas ativas</string>
+  <string name="navigation_drawer_open"></string>
+  <string name="navigation_drawer_close"></string>
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_arm_fragment">ArmFragment</string>
+  <string name="title_activity_profile_fragment">ProfileFragment</string>
+
+  <!-- Armar -->
+  <string name="arm_trap_title_alert">Colocar Armadilhas</string>
+  <string name="msg_confirm_arm_trap">Deseja colocar a armadilha nesse local?</string>
+  <string name="msg_success_arm_trap">A armadilha foi ativada :D Uma notificação surgirá quando alguém passar por ela.</string>
+  <string name="choose_your_trap">Escolha o tipo da armadilha</string>
+  <string name="getting_target">Obtendo alvo...</string>
+  <string name="arming_trap">Ativando armadilha...</string>
+
+  <!-- Armadilhas -->
+  <string name="SMALL">Pequena</string>
+  <string name="NORMAL">Normal</string>
+  <string name="BIG">Grande</string>
+
+  <!-- Armadilhas ativas -->
+  <string name="no_traps_armed">Nenhuma armadilha foi ativada ainda :(</string>
+  <string name="loading_traps">Carregando armadilhas...</string>
+
+  <!-- Shop -->
+  <string name="store">LOJA</string>
+  <string name="my_traps">MINHAS ARMADILHAS</string>
+  <string name="buy">Comprar</string>
+  <string name="loading_inventory">Carregando inventário...</string>
+  <string name="registering_purchase">Registrando compra...</string>
+
+  <!-- Common -->
+  <string name="yes">Sim</string>
+  <string name="no">Não</string>
+  <string name="ok">OK</string>
+  <string name="attention">Atenção</string>
+  <string name="general_error">Não foi possível realizar a operação :( Tente mais tarde</string>
+  <string name="format_date_hour_minute">dd/MM/yyyy HH:mm</string>
+  <string name="loading">Carregando</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.mytrap.TrapNotificationFragment$PlaceholderFragment">
+  <RelativeLayout
+      android:id="@+id/group_top_notification"
+      android:layout_width="wrap_content"
+      android:layout_height="280dp"
+      android:background="@drawable/background_top_notification">
+    <ImageView
+        android:id="@+id/img_notification_other_user"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:padding="3dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/lbl_notification_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:layout_below="@id/img_notification_other_user"
+        android:text="" />
+  </RelativeLayout>
+  <fragment
+      android:id="@+id/map_notification"
+      android:layout_below="@id/group_top_notification"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      class="com.google.android.gms.maps.MapFragment" />
+</RelativeLayout>

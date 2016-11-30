@@ -1,0 +1,9 @@
+﻿<resources>
+  <style name="Theme.MyTrap" parent="@android:style/Theme.Material">
+    <item name="android:actionBarStyle">@style/Theme.MyTrap.ActionBar</item>
+  </style>
+
+  <style name="Theme.MyTrap.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+    <item name="android:background">#f15f4b</item>
+  </style>
+</resources>

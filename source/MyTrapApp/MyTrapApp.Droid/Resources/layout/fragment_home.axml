@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.mytrap.HomeActivity$PlaceholderFragment">
+    <RelativeLayout
+        android:id="@+id/group_top_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:background="@drawable/background_top_profile">
+        <ImageView
+            android:id="@+id/img_home_profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:padding="3dp"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/lbl_home_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:layout_below="@id/img_home_profile"
+            android:text="" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp">
+            <RelativeLayout
+                android:id="@+id/layout_home_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:background="@drawable/background_info_profile"
+                android:layout_below="@id/lbl_home_name">
+                <TextView
+                    android:id="@+id/lbl_home_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/points" />
+                <TextView
+                    android:id="@+id/lbl_home_points_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@id/lbl_home_points"
+                    android:text="" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layout_home_traps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:background="@drawable/background_info_profile"
+                android:layout_below="@id/layout_home_points">
+                <TextView
+                    android:id="@+id/lbl_home_traps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/traps" />
+                <TextView
+                    android:id="@+id/lbl_home_traps_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@id/lbl_home_traps"
+                    android:text="" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/group_top_profile"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/lbl_home_other_msg"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:id="@+id/btn_home_arm"
+            android:background="@drawable/button_border"
+            android:textColor="#f15f4b"
+            android:textAllCaps="false"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:text="@string/btn_arm_trap" />
+        <Button
+            android:background="@drawable/button_border"
+            android:textColor="#f15f4b"
+            android:textAllCaps="false"
+            android:id="@+id/btn_home_buy"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:text="@string/btn_buy_trap" />
+    </RelativeLayout>
+</RelativeLayout>

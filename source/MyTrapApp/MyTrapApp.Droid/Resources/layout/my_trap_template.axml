@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+    <ImageView
+        android:id="@+id/img_my_trap"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/trap_bear_trap_icon" />
+    <TextView
+        android:id="@+id/lbl_qtd_my_trap"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:text="10x"
+        android:layout_alignBottom="@id/img_my_trap" />
+</RelativeLayout>

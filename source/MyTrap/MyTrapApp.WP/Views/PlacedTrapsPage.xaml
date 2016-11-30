@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="MyTrapApp.WP.Views.PlacedTrapsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ctl="using:MyTrapApp.WP.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:maps="using:Windows.UI.Xaml.Controls.Maps">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ctl:PageHeader/>
+        <maps:MapControl x:Name="map" Grid.Row="1" MapServiceToken="yrXgKy3DuSaMkFZpgK4F~bm_b9sTlpmUSThn9ChgPKw~AhvDdTYyPzGqlRdrU1J8McoIbXSteHB1LaDUMUZ1j0AJkz6fsL1eJBKuaS3neKdU" />
+    </Grid>
+</Page>

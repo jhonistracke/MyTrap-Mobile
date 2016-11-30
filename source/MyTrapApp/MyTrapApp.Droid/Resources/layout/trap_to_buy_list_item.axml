@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <ImageView
+        android:id="@+id/img_trap_item_buy"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true" />
+    <RelativeLayout
+        android:id="@+id/group_info_item_buy"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/img_trap_item_buy">
+        <TextView
+            android:id="@+id/txt_qty_item_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textColor="#adadad"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/txt_value_item_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#f15f4b"
+            android:gravity="center"
+            android:layout_below="@id/txt_qty_item_buy" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_trap_item_buy"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:textColor="#83d22f"
+        android:text="@string/buy"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_buy_background"
+        android:layout_toRightOf="@id/group_info_item_buy" />
+</RelativeLayout>

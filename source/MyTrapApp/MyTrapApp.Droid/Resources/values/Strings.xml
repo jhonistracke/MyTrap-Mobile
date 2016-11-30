@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- App -->
+  <string name="app_name">MyTrap</string>
+
+  <!-- Login Activity -->
+  <string name="login_with_facebook">Login with facebook</string>
+  <string name="title_login">Place traps and wait for someone to get caught when going through their traps. Call your friends and start now to capture the crowd!</string>
+  <string name="login_with_email">Login with E-mail</string>
+  <string name="error_login_facebook">Could not authenticate with Facebook</string>
+
+  <!-- Alert -->
+  <string name="alert_title_success">Success</string>
+  <string name="alert_title_error">Warning</string>
+
+  <!-- Buttons -->
+  <string name="btn_arm_trap">Place Trap</string>
+  <string name="btn_buy_trap">Buy</string>
+
+  <!-- Notification -->
+  <string name="new_trap_notification">Disarmed Trap!</string>
+  <string name="you_caught_by_user">You were caught by {0}!</string>
+  <string name="you_caught_other_user">You caught {0} and won {1} points!</string>
+  <string name="arm_more">Place more traps to stay in the game.</string>
+  <string name="buy_more">Buy traps to stay in the game.</string>
+
+  <!-- Home Fragment -->
+  <string name="arm_a_trap_msg">Place a trap and wait for someone to get caught to earn points</string>
+  <string name="buy_a_trap_msg">You have no more traps. Buy some traps now</string>
+  <string name="points">Points:</string>
+  <string name="traps">Traps:</string>
+
+  <!-- Settings -->
+  <string name="facebook_app_id"></string>
+  <string name="title_activity_home">HomeActivity</string>  
+
+  <!-- Left Menu -->
+  <string name="home_left_menu">Home</string>
+  <string name="arm_left_menu">Place Trap</string>
+  <string name="shop_left_menu">Traps</string>
+  <string name="traps_armed_left_menu">Placed Traps</string>
+  <string name="navigation_drawer_open"></string>
+  <string name="navigation_drawer_close"></string>
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_arm_fragment">ArmTrapFragment</string>
+  <string name="title_activity_profile_fragment">ProfileFragment</string>
+
+  <!-- Arm -->
+  <string name="arm_trap_title_alert">Place trap</string>
+  <string name="msg_confirm_arm_trap">You want to place the trap at the current position?</string>
+  <string name="msg_success_arm_trap">Trap was placed. You will be notified when someone is gaught!</string>
+  <string name="choose_your_trap">Choose your trap</string>
+  <string name="getting_target">Getting target...</string>
+  <string name="arming_trap">Putting trap...</string>
+
+  <!-- Traps -->
+  <string name="SMALL">Small</string>
+  <string name="NORMAL">Normal</string>
+  <string name="BIG">Big</string>
+
+  <!-- Shop -->
+  <string name="store">STORE</string>
+  <string name="my_traps">MY TRAPS</string>
+  <string name="buy">Buy</string>  
+  <string name="loading_inventory">Loading inventory...</string>
+  <string name="registering_purchase">Registering purchase...</string>
+
+  <!-- Armed Traps -->
+  <string name="no_traps_armed">You didn\'t put traps :(</string>
+  <string name="loading_traps">Loading traps...</string>
+
+  <!-- Common -->
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
+  <string name="ok">OK</string>
+  <string name="attention">Attention</string>
+  <string name="general_error">Unable to perform the operation. Try again later</string>
+  <string name="format_date_hour_minute">MM/dd/yyyy HH:mm</string>
+  <string name="loading">Loading...</string>
+
+</resources>
